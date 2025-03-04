@@ -6,8 +6,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-// Modern Android imports
-import androidx.annotation.NonNull;
 import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -17,8 +15,8 @@ public class RareloopAppVersion extends CordovaPlugin {
     private static final String GET_APP_VERSION_ACTION = "getAppVersion";
 
     @Override
-    public boolean execute(String action, @NonNull JSONArray args, 
-                          @NonNull CallbackContext callbackContext) {
+    public boolean execute(String action, @Override JSONArray args, 
+                          @Override CallbackContext callbackContext) {
         if (GET_APP_VERSION_ACTION.equals(action)) {
             getVersionInfo(callbackContext);
             return true;
@@ -26,7 +24,7 @@ public class RareloopAppVersion extends CordovaPlugin {
         return false;
     }
 
-    private void getVersionInfo(@NonNull CallbackContext callbackContext) {
+    private void getVersionInfo(@Override CallbackContext callbackContext) {
         try {
             Context context = cordova.getActivity().getApplicationContext();
             PackageInfo pInfo = context.getPackageManager()
