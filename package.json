@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-appversion",
+  "version": "2.0.0",
+  "description": "Access native app version and build number through JavaScript",
+  "main": "www/app-version.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "version",
+    "build number",
+    "app",
+    "ecosystem:cordova"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/cordova-plugin-appversion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/cordova-plugin-appversion/issues"
+  },
+  "homepage": "https://github.com/your-username/cordova-plugin-appversion#readme",
+  "cordova": {
+    "id": "cordova-plugin-appversion",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "engines": {
+    "cordova": ">=10.0.0",
+    "cordova-android": ">=10.0.0",
+    "cordova-ios": ">=6.0.0"
+  }
+}
