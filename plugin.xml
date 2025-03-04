@@ -33,6 +33,7 @@
         </config-file>
         <source-file src="src/android/RareloopAppVersion.java" 
                    target-dir="src/com/rareloop/cordova/appversion" />
-        <preference name="AndroidXEnabled" value="true" />
+        <variable name="ANDROIDXENABLED" value="true" />
+        <preference name="AndroidXEnabled" value="$ANDROIDXENABLED" />
     </platform>
 </plugin>
