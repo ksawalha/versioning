@@ -1,20 +1,28 @@
 {
-  "name": "cordova-plugin-appversion",
-  "version": "2.0.0",
-  "description": "Access native app version and build number through JavaScript",
-  "keywords": [
-    "cordova",
-    "plugin",
-    "version",
-    "build number",
-    "app"
-  ],
-  "license": "MIT",
+  "name": "versioning",
+  "version": "1.1.1",
+  "description": "Access the native app version & build number in JavaScript",
   "cordova": {
-    "id": "cordova-plugin-appversion",
+    "id": "versioning",
     "platforms": [
       "android",
       "ios"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.comksawalha/versioning"
+  },
+  "keywords": [
+    "cordova",
+    "appversion",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksawalha/versioning/issues"
+  },
+  "homepage": "https://github.com/ksawalha/versioning"
 }
