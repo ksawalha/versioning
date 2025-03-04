@@ -1,5 +1,5 @@
 #import "RareloopAppVersion.h"
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 @implementation RareloopAppVersion
 

@@ -5,8 +5,14 @@
   "cordova": {
     "id": "versioning",
     "platforms": [
-      "android",
-      "ios"
+      {
+        "name": "android",
+        "version": "9.0.0"
+      },
+      {
+        "name": "ios",
+        "version": "5.0.0"
+      }
     ]
   },
   "repository": {
